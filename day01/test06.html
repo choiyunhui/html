@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>form 테스트</title>
+  </head>
+  <body>
+    <h1>레드향 주문하기</h1>
+    <form action="order.html" method="GET">
+      <fieldset>
+        <legend>상품선택</legend>
+        <p><label for="nametxt">이 름 </label><input type="text" id="nametxt" name="name" autofocus></p>
+        <label>아이디 <input type="text" name="id" value="hello" readonly></label>
+      </fieldset>
+      <fieldset>
+        <legend>배송정보</legend>
+        텍스트 <input tpye="text" name="txt" placeholder="이곳에 이름을 입력하세요"><br>
+        비밀번호 <input type="password" name="pw"><br>
+        이메일 <input type="email" name="email"><br>
+        <input type="color" name="color">
+      </fieldset>
+      <input type="submit">
+      <fieldset>
+        <legend>상품선택</legend>
+        <label><input type="checkbox" name="3kg" value="s3" checked>선물용 3kg</label>
+        <label><input type="checkbox" name="3kg" value="s5">선물용 5kg</label>
+        <label><input type="checkbox" name="3kg" value="g3">가정용 3kg</label>
+        <label><input type="checkbox" name="3kg" value="g5">가정용 5kg</label>
+        <p><b>포장선택</b></p>
+        <label><input type="radio" name="gift" value="yes" checked>선물 포장</label>
+        <label><input type="radio" name="gift" value="no">선물 포장 안함</label><br>
+        메모 <textarea name="memo"rows="5" cols="50"></textarea>
+        <br>
+        <input type="number" min="0" max="100" step="5" value="5">개<br>
+        <input type="range" min="0" max="5" value="1">개 <br>
+        <input type="date" min="1990-01-01" max="2021-12-31">
+        <select name="url" size="2">
+          <option value="www.naver.com">네이버</option>
+          <option value="www.google.com">구글</option>
+  
+        </select>
+      </fieldset>
+      <input type="submit">
+
+      <input type="image" src="./img/흰둥이.jpg" width="100px"><br>
+      <input type="button" value="공지창 열기" onclick="window.open('order.html')"><br>
+      <input type="file" name="file"> <br>
+
+      
+
+
+    </form>
+
+  </body>
+</html>
