@@ -1,0 +1,61 @@
+*{
+  margin:20px;
+}
+
+body{
+  font-family: "맑은 고딕", 돋움, 굴림;
+  /* background: url(./img/img04.jpg); */
+}
+
+h1{
+  background-color: rgb(235, 223, 158);
+  border :darkorange solid 2px;
+  color: hsla(0,100%,50%,0.5);
+  padding:10px;
+  margin:5px;
+}
+
+p{
+  text-align: center;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.donat{
+  text-align: center;
+  color: rgb(97, 204, 151);
+  font-style: italic;
+  border: 3px solid rgb(173, 240, 128);
+  padding:8px;
+  margin:2px;
+}
+div.donat{
+  color:rgb(108, 151, 131);
+  border: 3px solid rgb(97, 223, 155);
+}
+
+.bg{
+  background:rgb(251, 253, 233);
+}
+
+#container{
+  width:500px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+div p{
+  color: red;
+}
+
+.color1{
+  color: rgb(255,255,255);
+}
+.color2{
+  color: rgba(255,255,255,0.5);
+}
+a{
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,26 @@
+.shadow1{
+  color:red;
+  text-shadow: 1px 2px black ;
+}
+.shadow2{
+  text-shadow: 5px 5px 3px #ffa500 ;
+}
+.shadow3{
+  color:white;
+  text-shadow: 7px -7px 20px black ;
+}
+.spa{
+  color:tomato;
+  letter-spacing: 0.5em;
+}
+.spa2{
+  color:tomato;
+  word-spacing: 0.5em;
+}
+
+.book{
+  /* list-style-type: upper-alpha; */
+  /* list-style-image: url(./img/img05.png); */
+  /* list-style-position: inside; */
+  list-style: square url(./img/img05.png) inside;
+}
