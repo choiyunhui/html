@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>or and</title>
+  </head>
+  <body>
+    <script>
+      var numOne = prompt("50 미만인 숫자를 입력하세요. or");
+      var numTwo = prompt("50 미만인 숫자를 입력하세요. or");
+
+      if(numOne < 10 || numTwo < 10) 
+      alert("숫자 2개 중에서 최소한 하나는 10 미만 입니다.");
+      else
+      alert("숫자 2개 중에서 10 미만인 수가 없습니다.");
+
+      var numOne = prompt("50 미만인 숫자를 입력하세요. and");
+      var numTwo = prompt("50 미만인 숫자를 입력하세요. and");
+      if(numOne < 50 && numTwo<50)
+      alert("숫자 2개 모두 50 미만이군요.");
+      else
+      alert("조건에 맞지 않는 숫자가 있습니다.");
+    </script>
+  </body>
+</html>
