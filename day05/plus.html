@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>당첨자 발표</title>
+    <style>
+      h1 {
+        border:1px solid black;
+        padding:10px;
+        text-align:center;
+        background:#eee;
+      }
+    </style>
+  </head>
+  <body>    
+    <h1>더하기 문제</h1>
+    <script>
+      var sum = 0;
+      for(let i=1; i<=5; i++){
+      var num1 = Math.floor((Math.random() *10)+1); //*11
+      var num2 = Math.floor((Math.random() *10)+1);
+      var result = num1+num2;
+      var result2 = prompt(i + "번째 문제 : "+ num1 + " + " + num2 +" = ?");
+      if(result == parseInt(result2)) sum++;
+      }
+      document.write("다섯문제 중 총 " +sum+ "개 맞췄습니다.")
+    </script>
+  </body>
+</html>
